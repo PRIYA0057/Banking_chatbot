@@ -9,8 +9,8 @@ import fsspec
 
 
 # Load the preprocessed data
-df=pd.read_csv("D:\Insie AIML\BankFAQs.csv")
-df1=pd.read_csv("D:\Insie AIML\Additional FAQs.csv")
+df=pd.read_csv("./BankFAQs.csv")
+df1=pd.read_csv("./Additional FAQs.csv")
 
 data1=pd.concat([df1,df])
 
